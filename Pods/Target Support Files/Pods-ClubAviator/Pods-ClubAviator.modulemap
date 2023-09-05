@@ -1,0 +1,6 @@
+framework module Pods_ClubAviator {
+  umbrella header "Pods-ClubAviator-umbrella.h"
+
+  export *
+  module * { export * }
+}
