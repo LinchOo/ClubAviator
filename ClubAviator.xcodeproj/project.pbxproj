@@ -7,23 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49017B402AA74174001968D5 /* Pods_ClubAviator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49017B3F2AA74174001968D5 /* Pods_ClubAviator.framework */; };
 		4951A0662AA7334500022D58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4951A0652AA7334500022D58 /* AppDelegate.swift */; };
-		4951A0682AA7334500022D58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4951A0672AA7334500022D58 /* SceneDelegate.swift */; };
-		4951A06A2AA7334500022D58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4951A0692AA7334500022D58 /* ViewController.swift */; };
 		4951A06D2AA7334500022D58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4951A06B2AA7334500022D58 /* Main.storyboard */; };
 		4951A06F2AA7334600022D58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4951A06E2AA7334600022D58 /* Assets.xcassets */; };
-		4951A0722AA7334600022D58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4951A0702AA7334600022D58 /* LaunchScreen.storyboard */; };
+		49F9F5F52AA73A9F000E778A /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F5F42AA73A9F000E778A /* AuthView.swift */; };
+		49F9F5F72AA73ABB000E778A /* MainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F5F62AA73ABB000E778A /* MainTab.swift */; };
+		49F9F5FA2AA73ADB000E778A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F5F92AA73ADB000E778A /* HomeView.swift */; };
+		49F9F5FC2AA73AE1000E778A /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F5FB2AA73AE1000E778A /* NewsModel.swift */; };
+		49F9F5FE2AA73AEE000E778A /* NewsCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F5FD2AA73AEE000E778A /* NewsCellView.swift */; };
+		49F9F6002AA73AF8000E778A /* NewsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F5FF2AA73AF8000E778A /* NewsSheetView.swift */; };
+		49F9F6022AA73B01000E778A /* CustomTabCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F6012AA73B01000E778A /* CustomTabCurve.swift */; };
+		49F9F6052AA73B1A000E778A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F6042AA73B1A000E778A /* MenuView.swift */; };
+		49F9F60B2AA73B33000E778A /* ServicesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F60A2AA73B33000E778A /* ServicesModel.swift */; };
+		49F9F60D2AA73B39000E778A /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F60C2AA73B39000E778A /* MenuViewModel.swift */; };
+		49F9F6102AA73B51000E778A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F60F2AA73B51000E778A /* UserModel.swift */; };
+		49F9F6122AA73B58000E778A /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F6112AA73B58000E778A /* AccountView.swift */; };
+		49F9F6142AA73B62000E778A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F6132AA73B62000E778A /* SettingsView.swift */; };
+		49F9F6162AA73B6E000E778A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F6152AA73B6E000E778A /* HistoryView.swift */; };
+		49F9F6182AA73B75000E778A /* PromoCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F6172AA73B75000E778A /* PromoCodeView.swift */; };
+		49F9F61A2AA73B7E000E778A /* userViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F6192AA73B7E000E778A /* userViewModel.swift */; };
+		49F9F61D2AA73D1D000E778A /* StartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F61C2AA73D1D000E778A /* StartApp.swift */; };
+		49F9F61F2AA73F1A000E778A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49F9F61E2AA73F1A000E778A /* GoogleService-Info.plist */; };
+		4FBBF4AD2AA742E60027A20F /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FBBF4AC2AA742E60027A20F /* loading.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07E5EC916FB286D2D9E41CFF /* Pods-ClubAviator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubAviator.debug.xcconfig"; path = "Target Support Files/Pods-ClubAviator/Pods-ClubAviator.debug.xcconfig"; sourceTree = "<group>"; };
+		49017B3F2AA74174001968D5 /* Pods_ClubAviator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ClubAviator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4951A0622AA7334500022D58 /* ClubAviator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClubAviator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4951A0652AA7334500022D58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4951A0672AA7334500022D58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4951A0692AA7334500022D58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4951A06C2AA7334500022D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4951A06E2AA7334600022D58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4951A0712AA7334600022D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4951A0732AA7334600022D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F9F5F42AA73A9F000E778A /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		49F9F5F62AA73ABB000E778A /* MainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTab.swift; sourceTree = "<group>"; };
+		49F9F5F92AA73ADB000E778A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		49F9F5FB2AA73AE1000E778A /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		49F9F5FD2AA73AEE000E778A /* NewsCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCellView.swift; sourceTree = "<group>"; };
+		49F9F5FF2AA73AF8000E778A /* NewsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSheetView.swift; sourceTree = "<group>"; };
+		49F9F6012AA73B01000E778A /* CustomTabCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabCurve.swift; sourceTree = "<group>"; };
+		49F9F6042AA73B1A000E778A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		49F9F60A2AA73B33000E778A /* ServicesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesModel.swift; sourceTree = "<group>"; };
+		49F9F60C2AA73B39000E778A /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		49F9F60F2AA73B51000E778A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		49F9F6112AA73B58000E778A /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		49F9F6132AA73B62000E778A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		49F9F6152AA73B6E000E778A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		49F9F6172AA73B75000E778A /* PromoCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeView.swift; sourceTree = "<group>"; };
+		49F9F6192AA73B7E000E778A /* userViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userViewModel.swift; sourceTree = "<group>"; };
+		49F9F61C2AA73D1D000E778A /* StartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StartApp.swift; path = ClubAviator/StartApp.swift; sourceTree = SOURCE_ROOT; };
+		49F9F61E2AA73F1A000E778A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		49F9F6202AA73F48000E778A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FBBF4AC2AA742E60027A20F /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		CFD57B11EB3B0D12C71BB5A8 /* Pods-ClubAviator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubAviator.release.xcconfig"; path = "Target Support Files/Pods-ClubAviator/Pods-ClubAviator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49017B402AA74174001968D5 /* Pods_ClubAviator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49017B3E2AA74174001968D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49017B3F2AA74174001968D5 /* Pods_ClubAviator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4951A0592AA7334500022D58 = {
 			isa = PBXGroup;
 			children = (
 				4951A0642AA7334500022D58 /* ClubAviator */,
 				4951A0632AA7334500022D58 /* Products */,
+				49017B3E2AA74174001968D5 /* Frameworks */,
+				5E3402002587886657A22D63 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +103,73 @@
 		4951A0642AA7334500022D58 /* ClubAviator */ = {
 			isa = PBXGroup;
 			children = (
-				4951A0652AA7334500022D58 /* AppDelegate.swift */,
-				4951A0672AA7334500022D58 /* SceneDelegate.swift */,
-				4951A0692AA7334500022D58 /* ViewController.swift */,
+				49F9F6202AA73F48000E778A /* Info.plist */,
+				49F9F61E2AA73F1A000E778A /* GoogleService-Info.plist */,
 				4951A06B2AA7334500022D58 /* Main.storyboard */,
+				4FBBF4AC2AA742E60027A20F /* loading.json */,
+				4951A0652AA7334500022D58 /* AppDelegate.swift */,
+				49F9F61C2AA73D1D000E778A /* StartApp.swift */,
+				49F9F5F82AA73ACA000E778A /* Core */,
 				4951A06E2AA7334600022D58 /* Assets.xcassets */,
-				4951A0702AA7334600022D58 /* LaunchScreen.storyboard */,
-				4951A0732AA7334600022D58 /* Info.plist */,
 			);
 			path = ClubAviator;
+			sourceTree = "<group>";
+		};
+		49F9F5F82AA73ACA000E778A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				49F9F5F42AA73A9F000E778A /* AuthView.swift */,
+				49F9F5F62AA73ABB000E778A /* MainTab.swift */,
+				49F9F6032AA73B0B000E778A /* Home */,
+				49F9F60E2AA73B40000E778A /* Menu */,
+				49F9F61B2AA73B85000E778A /* Account */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		49F9F6032AA73B0B000E778A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				49F9F5F92AA73ADB000E778A /* HomeView.swift */,
+				49F9F5FB2AA73AE1000E778A /* NewsModel.swift */,
+				49F9F5FD2AA73AEE000E778A /* NewsCellView.swift */,
+				49F9F5FF2AA73AF8000E778A /* NewsSheetView.swift */,
+				49F9F6012AA73B01000E778A /* CustomTabCurve.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		49F9F60E2AA73B40000E778A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				49F9F6042AA73B1A000E778A /* MenuView.swift */,
+				49F9F60A2AA73B33000E778A /* ServicesModel.swift */,
+				49F9F60C2AA73B39000E778A /* MenuViewModel.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		49F9F61B2AA73B85000E778A /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				49F9F60F2AA73B51000E778A /* UserModel.swift */,
+				49F9F6112AA73B58000E778A /* AccountView.swift */,
+				49F9F6132AA73B62000E778A /* SettingsView.swift */,
+				49F9F6152AA73B6E000E778A /* HistoryView.swift */,
+				49F9F6172AA73B75000E778A /* PromoCodeView.swift */,
+				49F9F6192AA73B7E000E778A /* userViewModel.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		5E3402002587886657A22D63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07E5EC916FB286D2D9E41CFF /* Pods-ClubAviator.debug.xcconfig */,
+				CFD57B11EB3B0D12C71BB5A8 /* Pods-ClubAviator.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4951A0762AA7334600022D58 /* Build configuration list for PBXNativeTarget "ClubAviator" */;
 			buildPhases = (
+				205CADD953CAF79453ED4CFB /* [CP] Check Pods Manifest.lock */,
 				4951A05E2AA7334500022D58 /* Sources */,
 				4951A05F2AA7334500022D58 /* Frameworks */,
 				4951A0602AA7334500022D58 /* Resources */,
+				B1A043F775444F7C079E2E2F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +232,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4951A0722AA7334600022D58 /* LaunchScreen.storyboard in Resources */,
 				4951A06F2AA7334600022D58 /* Assets.xcassets in Resources */,
 				4951A06D2AA7334500022D58 /* Main.storyboard in Resources */,
+				4FBBF4AD2AA742E60027A20F /* loading.json in Resources */,
+				49F9F61F2AA73F1A000E778A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		205CADD953CAF79453ED4CFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClubAviator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1A043F775444F7C079E2E2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClubAviator/Pods-ClubAviator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClubAviator/Pods-ClubAviator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClubAviator/Pods-ClubAviator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4951A05E2AA7334500022D58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4951A06A2AA7334500022D58 /* ViewController.swift in Sources */,
+				49F9F5F52AA73A9F000E778A /* AuthView.swift in Sources */,
+				49F9F5FA2AA73ADB000E778A /* HomeView.swift in Sources */,
+				49F9F5F72AA73ABB000E778A /* MainTab.swift in Sources */,
+				49F9F5FE2AA73AEE000E778A /* NewsCellView.swift in Sources */,
+				49F9F6052AA73B1A000E778A /* MenuView.swift in Sources */,
+				49F9F60B2AA73B33000E778A /* ServicesModel.swift in Sources */,
+				49F9F61D2AA73D1D000E778A /* StartApp.swift in Sources */,
+				49F9F6102AA73B51000E778A /* UserModel.swift in Sources */,
+				49F9F6142AA73B62000E778A /* SettingsView.swift in Sources */,
+				49F9F6122AA73B58000E778A /* AccountView.swift in Sources */,
+				49F9F6182AA73B75000E778A /* PromoCodeView.swift in Sources */,
 				4951A0662AA7334500022D58 /* AppDelegate.swift in Sources */,
-				4951A0682AA7334500022D58 /* SceneDelegate.swift in Sources */,
+				49F9F5FC2AA73AE1000E778A /* NewsModel.swift in Sources */,
+				49F9F60D2AA73B39000E778A /* MenuViewModel.swift in Sources */,
+				49F9F61A2AA73B7E000E778A /* userViewModel.swift in Sources */,
+				49F9F6022AA73B01000E778A /* CustomTabCurve.swift in Sources */,
+				49F9F6162AA73B6E000E778A /* HistoryView.swift in Sources */,
+				49F9F6002AA73AF8000E778A /* NewsSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,14 +318,6 @@
 				4951A06C2AA7334500022D58 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4951A0702AA7334600022D58 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4951A0712AA7334600022D58 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -216,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,19 +439,26 @@
 		};
 		4951A0772AA7334600022D58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E5EC916FB286D2D9E41CFF /* Pods-ClubAviator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LD9ZCV4GPX;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = LD9ZCV4GPX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ClubAviator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AviatorS Club";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,27 +466,39 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Svyat.ClubAviator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Provi Destrib Club Aviator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4951A0782AA7334600022D58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD57B11EB3B0D12C71BB5A8 /* Pods-ClubAviator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LD9ZCV4GPX;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = LD9ZCV4GPX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ClubAviator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AviatorS Club";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +506,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Svyat.ClubAviator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Provi Destrib Club Aviator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
