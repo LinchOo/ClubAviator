@@ -1,8 +1,9 @@
 import SwiftUI
+
 struct HomeView: View {
     @State var isHide: Bool = false
     @EnvironmentObject var newsViewModel: NewsViewModel
-    @State var selectedNews: String = "1"
+    @State var selectedNews: String = "discont-10"
     var body: some View {
         VStack{
             Spacer()

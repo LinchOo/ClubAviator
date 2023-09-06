@@ -51,12 +51,18 @@ struct MenuView: View {
             }
             Spacer()
         }
-        
+        .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: UIScreen.main.bounds.height)
         .background{
             Image("bg")
                 .resizable()
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                .ignoresSafeArea()
         }
-        
+//        .background{
+//            Image("bg")
+//                .resizable()
+//        }
+//
     }
 }
 struct MenuView_Previews: PreviewProvider {

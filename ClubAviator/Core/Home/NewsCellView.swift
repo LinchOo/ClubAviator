@@ -8,9 +8,10 @@ struct NewsCellView: View {
             Image(news.imageName)
                 .resizable()
                 .scaledToFit()
+                .frame(width: 250,height: 250)
             Text(news.title)
-                .font(.system(size: 30, weight: .bold, design: .serif))
-                .minimumScaleFactor(0.7)
+                .font(.system(size: 28, weight: .bold, design: .serif))
+//                .minimumScaleFactor(0.7)
                 .lineLimit(1)
             Divider()
             Text(news.info)
@@ -31,6 +32,12 @@ struct NewsCellView: View {
             .padding(.horizontal)
             Spacer()
         }
-        .frame(maxWidth: .infinity,maxHeight: .infinity)
+//        .frame(maxWidth: .infinity,maxHeight: .infinity)
+    }
+}
+struct NewsCellView_Previews: PreviewProvider {
+    static var previews: some View {
+        NewsCellView(news:NewsDataService.newsDB[2] )
+            .environmentObject(NewsViewModel())
     }
 }

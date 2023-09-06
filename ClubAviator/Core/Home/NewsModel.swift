@@ -21,18 +21,18 @@ class NewsViewModel: ObservableObject {
 class NewsDataService {
     
     static let newsDB: [NewsModel] = [
-        NewsModel(date: "8.09.2023", title: "First days of Autumn", info: "Discont on Bar and Kitchen, Giveaways and Prizes, Let's celebrate togather", description: """
+        NewsModel(date: "8.09.2023", title: "First days of Autumn", info: "Discont on bar and kitchen, giveaways and prizes. Let's celebrate togather!", description: """
 📅 Date: 8.09.2023
                   
 What to expect:
 
-🎶Live music with special quest who start this party.
+🎶 Live music with special quest who start this party.
 Some funny things are in.
 🎁 Giveaways and Prizes
 Enjoy the first days of autumn with 10% discont on bar, and 15% discont on entertainment
-""", imageName: "autumn"),
+""", imageName: "discont-10"),
         
-        NewsModel(date: "27.08.2023", title: "🍸Last Summer Party🍹", info: "Let's spend this summer in the last party, discounts on all cocktails, special guest included. \n", description: """
+        NewsModel(date: "27.08.2023", title: "Last Summer Party", info: "Let's spend this summer in the last party, discounts on all cocktails, special guest included. \n", description: """
 📅 Date: 19.08.2023
 
 What to expect:
@@ -44,8 +44,8 @@ What to expect:
 🎁 Giveaways and Prizes: Take part in our contests and raffles for a chance to win incredible prizes, including free cocktails, tickets to upcoming events, and much more!
 
 Invite your friends, family, and everyone who appreciates life's brightest moments. See you at the bar for the last summer bash!
-""", imageName: "LastSummer"),
-        NewsModel(date: "19.08.2023", title: "🥃Whiskey vs Rum🥃", info: "Who is the better? Enjoy the taste of your favorite drinks at a discounted price and a special menu.\n", description: """
+""", imageName: "coctaile"),
+        NewsModel(date: "19.08.2023", title: "Whiskey vs Rum", info: "Who is the better? Enjoy the taste of your favorite drinks at a discounted price and a special menu.\n", description: """
 📅 Date: 19.08.2023
 
 What to expect:
@@ -64,8 +64,8 @@ What to expect:
 
 Don't miss the chance to immerse yourself in the world of aristocratic taste and discover who will emerge as the true king of the night - whiskey or rum.
 
-""", imageName: "WiskeyRum"),
-    NewsModel(date: "04.08.2023", title: "🍺 Bear Day 🍺", info: "We invite you to a bright event that will give you a lot of joy, fun and, of course, delicious beer!", description: """
+""", imageName: "whiskey"),
+    NewsModel(date: "04.08.2023", title: "Bear Day", info: "We invite you to a bright event that will give you a lot of joy, fun and, of course, delicious beer!", description: """
 📅 Date: 04.08.2023
 
 What to expect:

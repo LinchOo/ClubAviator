@@ -19,7 +19,8 @@ struct AccountView: View {
                 QRCodeDocumentUIView(document: viewModel.userQrCode!)
                     .frame(width: 300, height: 300)
                     .cornerRadius(15)
-                    .background(.ultraThinMaterial.opacity(1))
+//                    .background(.ultraThinMaterial.opacity(1))
+                    .background(Color.brown)
                     .cornerRadius(15)
                 HStack{
                     Button{
