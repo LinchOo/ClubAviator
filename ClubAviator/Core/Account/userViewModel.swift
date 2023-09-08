@@ -99,7 +99,7 @@ class userViewModel: ObservableObject{
         
         doc.design.shape.eye = QRCode.EyeShape.RoundedPointingIn()
         //let image = UIImage(named: "slogo")!
-        let image = UIImage(named: "discont")!
+        let image = UIImage(named: "Discont")!
         
         // Centered square logo
         doc.logoTemplate = QRCode.LogoTemplate(

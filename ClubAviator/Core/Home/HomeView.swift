@@ -51,7 +51,6 @@ struct HomeView: View {
                 .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
                 .ignoresSafeArea()
         }
-        
         .sheet(item: $newsViewModel.newsSheet, content: { news in
             NewsSheetView(news: news)
                 .environmentObject(newsViewModel)

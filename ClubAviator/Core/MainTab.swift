@@ -2,15 +2,16 @@ import SwiftUI
 import QRCode
 
 enum Tab: String, CaseIterable {
-    case news = "news"
-    case discont = "discont"
-    case menu = "menu"
+    case news = "News"
+    case discont = "Discont"
+    case menu = "Menu"
     var index: CGFloat {
         return CGFloat(Tab.allCases.firstIndex(of: self) ?? 0)
     }
     static var count: CGFloat {
         return CGFloat(Tab.allCases.count)
     }
+    
 }
 
 struct MainTab: View {
@@ -19,8 +20,12 @@ struct MainTab: View {
     @State var curveAxis: CGFloat = 0
     @StateObject var viewModelUser = userViewModel()
     @StateObject var viewModelNews = NewsViewModel()
+    var divide = [1,2]
     
-    init(){ UITabBar.appearance().isHidden = true}
+    init(){
+        UITabBar.appearance().isHidden = true
+        }
+    
     var body: some View {
         VStack(spacing: 0) {
             TabView(selection: $selectedTab)
@@ -35,36 +40,43 @@ struct MainTab: View {
                     .tag(Tab.menu)
             }
             
-            .clipShape(
-                CustomTabCurve(curveAxis: curveAxis)
-            )
-            .padding(.bottom, -90)
+//            .clipShape(
+//                CustomTabCurve(curveAxis: curveAxis)
+//            )
+//            .padding(.bottom, -90)
             HStack{
                 TabButtons()
             }
-            .frame(height: 50)
+            .padding(.bottom,45)
+//            .background(Color.clear)
             .padding(.horizontal,35)
+
         }
         .onAppear{
             print("ENTER")
         }
         .preferredColorScheme(.dark)
-        .background(Color.brown)
+        .background{
+            Image("bg")
+                .resizable()
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                .ignoresSafeArea()
+        }
         .ignoresSafeArea(.all, edges: .all)
         .overlay(alignment: .top, content: {
             ZStack {
-                Text("Club Aviator")
-                    .font(.system(size: 40, weight: .bold, design: .serif))
-                    .foregroundColor(.brown)
-                    .shadow(color: .black, radius: 5)
-                    .zIndex(0)
+//                Text("AviatorS Club")
+//                    .font(.system(size: 40, weight: .bold, design: .serif))
+//                    .foregroundColor(.brown)
+//                    .shadow(color: .black, radius: 5)
+//                    .zIndex(0)
                 if viewModelUser.auth.currentUser == nil {
                     AuthView()
                         .environmentObject(viewModelUser)
                         .zIndex(1)
                 }
             }
-            .padding(.bottom,10)
+//            .padding(.bottom,10)
         })
     }
     @ViewBuilder
@@ -77,7 +89,7 @@ struct MainTab: View {
                         curveAxis = proxy.frame(in: .global).midX
                     }
                 }label: {
-                    VStack{
+                    VStack(spacing: 0){
                         Image(tab.rawValue)
                             .resizable()
                             .renderingMode(.template)
@@ -86,14 +98,17 @@ struct MainTab: View {
                             .frame(width: 35,height: 35)
                             .background{
                                 Circle()
-                                    .fill(Color.brown)
+                                    .fill(selectedTab == tab ? Color.brown : Color.clear)
                                     .frame(width: 45, height: 45)
                                 
                             }
                             .offset(y: selectedTab == tab ? -25 : 0)
                         Text(tab.rawValue)
+                            .font(.caption)
                             .foregroundColor(.white)
                     }
+                    
+                    
                 }
                 .frame(maxWidth: .infinity, alignment: .center)
                 .onAppear{

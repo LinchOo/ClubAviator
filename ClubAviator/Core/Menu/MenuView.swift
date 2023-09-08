@@ -33,7 +33,7 @@ struct MenuView: View {
                     .tag(services.name)
                 }
             }
-            .frame(maxHeight: UIScreen.main.bounds.height - 200)
+            .frame(maxHeight: UIScreen.main.bounds.height - 250)
             .background(.ultraThinMaterial)
             .cornerRadius(35)
             .padding(.horizontal,30)

@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		49017B402AA74174001968D5 /* Pods_ClubAviator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49017B3F2AA74174001968D5 /* Pods_ClubAviator.framework */; };
 		4951A0662AA7334500022D58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4951A0652AA7334500022D58 /* AppDelegate.swift */; };
-		4951A06D2AA7334500022D58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4951A06B2AA7334500022D58 /* Main.storyboard */; };
 		4951A06F2AA7334600022D58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4951A06E2AA7334600022D58 /* Assets.xcassets */; };
+		49F26ECE2AA88F1D00BF83AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F26ECD2AA88F1D00BF83AE /* Main.storyboard */; };
 		49F9F5F52AA73A9F000E778A /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F5F42AA73A9F000E778A /* AuthView.swift */; };
 		49F9F5F72AA73ABB000E778A /* MainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F5F62AA73ABB000E778A /* MainTab.swift */; };
 		49F9F5FA2AA73ADB000E778A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9F5F92AA73ADB000E778A /* HomeView.swift */; };
@@ -37,9 +37,9 @@
 		49017B3F2AA74174001968D5 /* Pods_ClubAviator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ClubAviator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4951A0622AA7334500022D58 /* ClubAviator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClubAviator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4951A0652AA7334500022D58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4951A06C2AA7334500022D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4951A06E2AA7334600022D58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49575E3C2AA768D500086930 /* ClubAviator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClubAviator.entitlements; sourceTree = "<group>"; };
+		49F26ECD2AA88F1D00BF83AE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		49F9F5F42AA73A9F000E778A /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		49F9F5F62AA73ABB000E778A /* MainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTab.swift; sourceTree = "<group>"; };
 		49F9F5F92AA73ADB000E778A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -107,8 +107,8 @@
 				49575E3C2AA768D500086930 /* ClubAviator.entitlements */,
 				49F9F6202AA73F48000E778A /* Info.plist */,
 				49F9F61E2AA73F1A000E778A /* GoogleService-Info.plist */,
-				4951A06B2AA7334500022D58 /* Main.storyboard */,
 				4FBBF4AC2AA742E60027A20F /* loading.json */,
+				49F26ECD2AA88F1D00BF83AE /* Main.storyboard */,
 				4951A0652AA7334500022D58 /* AppDelegate.swift */,
 				49F9F61C2AA73D1D000E778A /* StartApp.swift */,
 				49F9F5F82AA73ACA000E778A /* Core */,
@@ -234,9 +234,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4951A06F2AA7334600022D58 /* Assets.xcassets in Resources */,
-				4951A06D2AA7334500022D58 /* Main.storyboard in Resources */,
 				4FBBF4AD2AA742E60027A20F /* loading.json in Resources */,
 				49F9F61F2AA73F1A000E778A /* GoogleService-Info.plist in Resources */,
+				49F26ECE2AA88F1D00BF83AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,17 +311,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4951A06B2AA7334500022D58 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4951A06C2AA7334500022D58 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4951A0742AA7334600022D58 /* Debug */ = {

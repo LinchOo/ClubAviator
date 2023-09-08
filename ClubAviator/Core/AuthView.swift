@@ -16,7 +16,7 @@ struct AuthView: View {
     var body: some View {
         VStack(spacing: 65){
             VStack{
-                Text("Club Aviator")
+                Text("AviatorS Club")
                     .font(.system(size: 40, weight: .bold, design: .serif))
                     .foregroundColor(.brown)
                     .shadow(color: .white.opacity(0.7), radius: 0.3, x: 1, y: 1)
